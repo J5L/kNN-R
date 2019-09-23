@@ -14,7 +14,7 @@ Optional: variable names if data is 2-dimensional.
 - Column of classifier must be on the left side of the data set (first column)
 
 ### Examples
-In the test.R file the algorithm is trained and tested on the wine dataset from the *UCI Machine Learning Repository* (https://archive.ics.uci.edu/ml/datasets/wine
+In the test.R file the algorithm is trained and tested on the wine dataset from the *UCI Machine Learning Repository* (https://archive.ics.uci.edu/ml/datasets/wine).
 It also contains an S3-Method to plot the classified data.
 
 This is an example on how to use the algorithm and how to access the results.
