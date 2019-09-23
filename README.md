@@ -1,13 +1,16 @@
 # kNN-R
-Simple program that trains, tests, visualizes and evaluates a k-nearest neighbours algorithm in R
+Simple program that trains, tests, visualizes and evaluates a k-nearest neighbours algorithm in R. 
+
+If your data has more than two dimensions, the program will visualize the data by a Principal Component Analysis (PCA) via the first to Principal Components.
+If your data is two dimensional it will be visualized in a scatterplot.
 
 The program takes 
 - train data, 
 - test data, 
 - name of the column which stores the classifying variable (in string format), 
 - k value.
+- Optional: variable names if data is 2-dimensional.
 
-Optional: variable names if data is 2-dimensional.
 
 ### Data requirements
 - Must be numeric, except classifier
